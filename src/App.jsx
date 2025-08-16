@@ -6,7 +6,7 @@ import moviesFromServer from './api/movies.json';
 export const App = () => {
   const [query, setQuery] = useState('');
 
-  const handleChange = e => {
+  const handleChange = changeEvent => {
     setQuery(changeEvent.target.value);
   };
 
